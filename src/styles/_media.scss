@@ -1,0 +1,16 @@
+@media (max-width: 650px) {
+	.h1 {
+		font-size: 38px;
+	}
+
+	.first__description {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 490px) {
+	.header {
+		flex-direction: column;
+		gap: 18px;
+	}
+}
