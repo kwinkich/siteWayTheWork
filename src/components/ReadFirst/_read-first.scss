@@ -1,0 +1,22 @@
+.first {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+	gap: 48px 0px;
+
+	&__text-block {
+		max-width: 75%;
+		display: flex;
+		flex-direction: column;
+		gap: 12px 0px;
+	}
+
+	&__description {
+		font-size: 18px;
+		color: var(--gray-color);
+		line-height: 140%;
+	}
+}

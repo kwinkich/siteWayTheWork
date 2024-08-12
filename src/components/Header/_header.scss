@@ -1,0 +1,21 @@
+.header {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__logo {
+		font-family: 'JetBrains Mono Medium', sans;
+		font-size: 24px;
+		line-height: 140%;
+		color: var(--white-color);
+	}
+	&__ul {
+		display: flex;
+		gap: 0px 14px;
+	}
+	&__li {
+	}
+	&__link {
+		cursor: url('/Eagle.svg'), auto;
+	}
+}
