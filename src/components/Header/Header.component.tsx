@@ -11,6 +11,11 @@ export default function Header() {
 				</li>
 				<li className='header__li'>
 					<a className='header__link link' href='#'>
+						bio
+					</a>
+				</li>
+				<li className='header__li'>
+					<a className='header__link link' href='#'>
 						channel
 					</a>
 				</li>
