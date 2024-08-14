@@ -1,0 +1,48 @@
+.article-template {
+	.link {
+		cursor: pointer;
+	}
+
+	&__title {
+		margin-top: 18px;
+		margin-bottom: 6px;
+	}
+
+	&__tags {
+		& p {
+			font-size: 16px;
+			color: var(--gray-color);
+			line-height: 140%;
+		}
+		margin-bottom: 18px;
+	}
+
+	&__content {
+		& p {
+			font-size: 18px;
+			color: var(--white-color);
+			line-height: 140%;
+		}
+
+		margin-bottom: 48px;
+	}
+
+	&__date {
+		& p {
+			font-size: 14px;
+			color: var(--gray-color);
+			line-height: 140%;
+		}
+		margin-bottom: 6px;
+	}
+	&__statistic {
+		& p {
+			font-size: 16px;
+			color: var(--white-color);
+			line-height: 140%;
+		}
+		& p:not(:last-child) {
+			margin-bottom: 3px;
+		}
+	}
+}

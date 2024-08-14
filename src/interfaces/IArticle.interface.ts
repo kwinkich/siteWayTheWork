@@ -1,10 +1,11 @@
 import { Statistics } from './IStatistics.interface';
-import { Tags } from './ITags.interface';
 
 export interface Article {
+	id: number;
 	title: string;
 	content: string;
-	tags: Tags[];
+	tags: string[];
 	date: Date;
 	statistics: Statistics;
+	[key: string]: any; // Дополнительные пропсы
 }
